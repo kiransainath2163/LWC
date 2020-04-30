@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Case Details" icon-name="standard:case">
+        <div class="slds-m-around--medium">
+            <lightning-input 
+                    value={subject}
+                    label='Enter Keyword'
+                    onchange={handleChange}>
+            </lightning-input>
+            <template for:each={records} for:item="item">
+                <p key={item.id}>{item.Subject} - {item.Status}</p>
+            </template>
+            <template if:false={records}>
+                No records available
+            </template>
+        </div>
+    </lightning-card>
+</template>

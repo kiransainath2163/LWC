@@ -1,0 +1,98 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/abhijeetTutorial": [
+                "abhijeetTutorial/abhijeetTutorial.js"
+            ],
+            "c/apexImperativeMethod": [
+                "apexImperativeMethod/apexImperativeMethod.js"
+            ],
+            "c/childComp": [
+                "childComp/childComp.js"
+            ],
+            "c/childCompEvent": [
+                "childCompEvent/childCompEvent.js"
+            ],
+            "c/childLwc": [
+                "childLwc/childLwc.js"
+            ],
+            "c/getRecord": [
+                "getRecord/getRecord.js"
+            ],
+            "c/grandChild": [
+                "grandChild/grandChild.js"
+            ],
+            "c/hooksExample": [
+                "hooksExample/hooksExample.js"
+            ],
+            "c/ldsRecordView": [
+                "ldsRecordView/ldsRecordView.js"
+            ],
+            "c/objectInfoApi": [
+                "objectInfoApi/objectInfoApi.js"
+            ],
+            "c/opportunityDetails": [
+                "opportunityDetails/opportunityDetails.js"
+            ],
+            "c/parentComp": [
+                "parentComp/parentComp.js"
+            ],
+            "c/parentCompEvent": [
+                "parentCompEvent/parentCompEvent.js"
+            ],
+            "c/parentLwc": [
+                "parentLwc/parentLwc.js"
+            ],
+            "c/propDemo": [
+                "propDemo/propDemo.js"
+            ],
+            "c/toDoItem": [
+                "toDoItem/toDoItem.js"
+            ],
+            "c/toDoItems": [
+                "toDoItems/toDoItems.js"
+            ],
+            "c/track": [
+                "track/track.js"
+            ],
+            "c/wireMethod": [
+                "wireMethod/wireMethod.js"
+            ],
+            "c/quickCase": [
+                "quickCase/quickCase.js"
+            ],
+            "c/searchComponent": [
+                "searchComponent/searchComponent.js"
+            ],
+            "c/customLookup": [
+                "customLookup/customLookup.js"
+            ],
+            "c/recordList": [
+                "recordList/recordList.js"
+            ],
+            "c/designAttribute": [
+                "designAttribute/designAttribute.js"
+            ],
+            "c/beerSearch": [
+                "beerSearch/beerSearch.js"
+            ],
+            "c/beerTile": [
+                "beerTile/beerTile.js"
+            ],
+            "c/beerList": [
+                "beerList/beerList.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

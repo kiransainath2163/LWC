@@ -1,0 +1,8 @@
+<template>
+    <c-search-component oninputvalue={handleSearch}></c-search-component>
+    <template if:true={records}>
+        <template for:each={records} for:item="item">
+            <c-record-list key={item.id}></c-record-list>
+        </template>
+    </template>
+</template>

@@ -1,0 +1,15 @@
+<template>
+    <p>Hello from ToDoItems - Parent!</p>
+    <ul>
+        <template for:each={todo} for:item="item">
+            <li key={item} style="padding:10px">
+                <c-to-do-item show-to-do>
+                    <lightning-tile label="Todo Item" slot="todoInfo">
+                        <span>{item}</span>
+                    </lightning-tile>
+                    <div>Unnamed Slot</div>
+                </c-to-do-item>
+            </li>
+        </template>
+    </ul>    
+</template>

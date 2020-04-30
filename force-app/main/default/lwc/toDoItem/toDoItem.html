@@ -1,0 +1,14 @@
+<template>
+    <template if:true={showToDo}>
+        <p>Hello from toDoItem - Child!</p>
+        <div class="lgc-bg">
+            <!-- <lightning-tile label="Todo Item">
+                <span>{itemName}</span>
+            </lightning-tile> -->
+            <slot name="todoInfo"></slot>
+            <slot></slot>
+            <slot></slot>
+            <slot></slot>
+        </div>
+    </template>
+</template>
